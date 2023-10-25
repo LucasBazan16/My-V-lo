@@ -1,0 +1,59 @@
+.badge1 {
+  width: 100%;
+  top: calc(50% - 12px);
+  right: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--colors-red);
+  height: 24px;
+}
+.badge,
+.badge1,
+.number {
+  position: absolute;
+}
+.number {
+  width: 100%;
+  top: calc(50% - 9.5px);
+  left: 0;
+  display: inline-block;
+}
+.badge {
+  top: -10px;
+  left: calc(50% + 17px);
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.appName,
+.frame {
+  position: relative;
+}
+.frame {
+  width: 60px;
+  height: 60px;
+}
+.appName {
+  align-self: stretch;
+  font-size: var(--caption1-regular-size);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 14px;
+  flex-shrink: 0;
+}
+.row1App2 {
+  position: absolute;
+  top: 0;
+  left: 90.3px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--labels-primary-dark);
+  font-family: var(--caption1-regular);
+}

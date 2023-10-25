@@ -1,0 +1,76 @@
+.time1 {
+  position: absolute;
+  width: 26.81%;
+  top: 33.89%;
+  left: 36.96%;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.levelsIcon,
+.time {
+  position: relative;
+  width: 138px;
+  height: 54px;
+}
+.levelsIcon {
+  width: 143px;
+}
+.statusBar {
+  width: 393px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-93xl);
+}
+.row1 {
+  position: absolute;
+  top: 26px;
+  left: 31px;
+  width: 331px;
+  height: 79px;
+}
+.appIcons {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.search {
+  position: relative;
+  letter-spacing: -0.4px;
+  line-height: 16px;
+}
+.modedark,
+.searchField {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.searchField {
+  border-radius: var(--br-81xl);
+  background: linear-gradient(#9c9c9c, #9c9c9c), rgba(37, 37, 37, 0.55);
+  backdrop-filter: blur(50px);
+  height: 30px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-6xs) var(--padding-2xs);
+  box-sizing: border-box;
+  font-size: var(--caption1-regular-size);
+}
+.modedark {
+  height: 852px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-3xs);
+  background-image: url(/public/modedark@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--labels-primary-dark);
+  font-family: var(--caption1-regular);
+}

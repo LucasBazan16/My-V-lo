@@ -1,0 +1,78 @@
+.dockApp11,
+.phoneIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.phoneIcon {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.dockApp11 {
+  border-radius: var(--br-sm);
+  width: 60px;
+  height: 60px;
+}
+.badge1 {
+  width: 100%;
+  top: calc(50% - 12px);
+  right: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--colors-red);
+  height: 24px;
+}
+.badge,
+.badge1,
+.number {
+  position: absolute;
+}
+.number {
+  width: 100%;
+  top: calc(50% - 9.5px);
+  left: 0;
+  display: inline-block;
+}
+.badge {
+  top: -10px;
+  left: calc(50% + 17px);
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.dockApp1 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.background,
+.dock {
+  border-radius: var(--br-22xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.background {
+  align-self: stretch;
+  flex: 1;
+  background: linear-gradient(#9c9c9c, #9c9c9c), rgba(37, 37, 37, 0.55);
+  backdrop-filter: blur(50px);
+  padding: var(--padding-lgi) 0;
+  gap: var(--gap-11xl);
+}
+.dock {
+  width: 393px;
+  padding: var(--padding-xs) var(--padding-2xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--labels-primary-dark);
+  font-family: var(--caption1-regular);
+}

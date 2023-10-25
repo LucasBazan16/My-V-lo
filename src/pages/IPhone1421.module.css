@@ -1,0 +1,120 @@
+.iphone1421Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 682.5px;
+  height: 844px;
+}
+.iphone1421Child1,
+.iphone1421Child2,
+.iphone1421Inner,
+.iphone1421Item,
+.rectangleDiv {
+  position: absolute;
+  top: 411px;
+  left: 41px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-limegreen);
+  width: 307px;
+  height: 47px;
+}
+.iphone1421Child1,
+.iphone1421Child2,
+.iphone1421Inner,
+.rectangleDiv {
+  top: 537px;
+}
+.iphone1421Child1,
+.iphone1421Child2,
+.rectangleDiv {
+  top: 474px;
+}
+.iphone1421Child1,
+.iphone1421Child2 {
+  top: 600px;
+}
+.iphone1421Child2 {
+  top: 696px;
+  background-color: var(--color-darkslategray-300);
+  cursor: pointer;
+}
+.confirmarSenha,
+.criarConta,
+.email,
+.nomeCompleto,
+.senha {
+  position: absolute;
+  top: 427px;
+  left: 57px;
+  font-weight: 500;
+}
+.confirmarSenha,
+.criarConta,
+.email,
+.senha {
+  top: 555px;
+}
+.confirmarSenha,
+.criarConta,
+.email {
+  top: 492px;
+}
+.confirmarSenha,
+.criarConta {
+  top: 616px;
+}
+.criarConta {
+  top: 707px;
+  left: 138px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.euConcordoCom,
+.groupChild {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+}
+.euConcordoCom {
+  left: 34px;
+  font-weight: 500;
+}
+.groupChild {
+  left: 0;
+  background-color: var(--color-gainsboro);
+  border: 2px solid var(--labels-primary-dark);
+  box-sizing: border-box;
+  width: 18px;
+  height: 17px;
+}
+.euConcordoComOsTermosParent {
+  position: absolute;
+  top: 663px;
+  left: 92px;
+  width: 205px;
+  height: 17px;
+  color: var(--labels-primary-dark);
+}
+.vectorIcon {
+  position: absolute;
+  height: 12.68%;
+  width: 51.28%;
+  top: 30.57%;
+  right: 22.56%;
+  bottom: 56.75%;
+  left: 26.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iphone1421 {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--caption1-regular-size);
+  color: var(--color-gray-500);
+  font-family: var(--font-montserrat);
+}

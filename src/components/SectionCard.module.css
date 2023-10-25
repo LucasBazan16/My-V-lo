@@ -1,0 +1,49 @@
+.hamburguer1Icon {
+  position: absolute;
+  top: 59px;
+  left: 0;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.time1 {
+  position: absolute;
+  width: 26.81%;
+  top: 33.89%;
+  left: 7.25%;
+  line-height: 22px;
+  display: inline-block;
+}
+.levelsIcon,
+.statusBar,
+.time {
+  position: relative;
+  width: 138px;
+  height: 54px;
+}
+.levelsIcon,
+.statusBar {
+  width: 143px;
+}
+.statusBar {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 393px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-93xl);
+}
+.hamburguer1Parent {
+  position: absolute;
+  top: -2px;
+  left: 10px;
+  width: 401px;
+  height: 105px;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--labels-primary-dark);
+  font-family: var(--font-helvetica);
+}

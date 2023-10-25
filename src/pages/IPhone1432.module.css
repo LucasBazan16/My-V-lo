@@ -1,0 +1,101 @@
+.iphone1432Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 682.5px;
+  height: 844px;
+}
+.time1 {
+  position: absolute;
+  width: 26.81%;
+  top: 33.89%;
+  left: 7.25%;
+  line-height: 22px;
+  display: inline-block;
+}
+.levelsIcon,
+.time {
+  position: relative;
+  width: 138px;
+  height: 54px;
+}
+.levelsIcon {
+  width: 143px;
+}
+.statusBar,
+.statusBarWrapper {
+  position: absolute;
+  width: 393px;
+  height: 54px;
+}
+.statusBar {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-93xl);
+}
+.statusBarWrapper {
+  top: -2px;
+  left: 18px;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-helvetica);
+}
+.iphone1432Item {
+  position: absolute;
+  top: 85px;
+  left: 78px;
+  border-radius: 50%;
+  width: 234px;
+  height: 234px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.beaDuarte {
+  margin: 0;
+  line-height: 38px;
+  font-weight: 600;
+}
+.muilocaaa {
+  margin: 0;
+  font-size: var(--font-size-smi);
+  line-height: 20.5px;
+}
+.arrowLeft2,
+.beaDuarteMuilocaaaContainer {
+  position: absolute;
+  top: 333px;
+  left: 137px;
+}
+.arrowLeft2 {
+  height: 2.81%;
+  width: 3.33%;
+  top: 8.06%;
+  right: 92.82%;
+  bottom: 89.14%;
+  left: 3.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.pontuao {
+  position: absolute;
+  top: 422px;
+  left: 22px;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+.iphone1432 {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--labels-primary-dark);
+  font-family: var(--font-montserrat);
+}

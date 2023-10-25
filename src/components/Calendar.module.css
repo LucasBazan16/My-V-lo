@@ -1,0 +1,25 @@
+.date,
+.day {
+  position: absolute;
+}
+.date {
+  top: 21.67%;
+  left: 31.67%;
+  font-weight: 300;
+}
+.day {
+  top: 7.17%;
+  left: 26.67%;
+  font-size: var(--font-size-xs-5);
+  color: var(--color-tomato-100);
+}
+.calendar {
+  background-color: var(--labels-primary-dark);
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-18xl-5);
+  color: var(--color-gray-100);
+  font-family: var(--caption1-regular);
+}

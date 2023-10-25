@@ -1,0 +1,149 @@
+.iphone1420Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 682.5px;
+  height: 844px;
+}
+.iphone1420Inner,
+.iphone1420Item,
+.rectangleDiv {
+  position: absolute;
+  top: 411px;
+  left: 41px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-limegreen);
+  width: 307px;
+  height: 47px;
+}
+.iphone1420Inner,
+.rectangleDiv {
+  top: 474px;
+}
+.rectangleDiv {
+  top: 537px;
+  background-color: var(--color-darkslategray-300);
+  cursor: pointer;
+}
+.email,
+.login,
+.senha {
+  position: absolute;
+  top: 427px;
+  left: 57px;
+  font-weight: 500;
+  color: var(--color-gray-500);
+}
+.login,
+.senha {
+  top: 490px;
+}
+.login {
+  top: 548px;
+  left: 165px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.criarConta {
+  position: absolute;
+  top: 600px;
+  left: 279px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.groupChild,
+.lembreMe {
+  position: absolute;
+  top: 0;
+}
+.lembreMe {
+  left: 34px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.groupChild {
+  left: 0;
+  background-color: var(--color-gainsboro);
+  border: 2px solid var(--labels-primary-dark);
+  box-sizing: border-box;
+  width: 18px;
+  height: 17px;
+}
+.lembreMeParent,
+.ou {
+  position: absolute;
+  top: 600px;
+  left: 41px;
+  width: 107px;
+  height: 17px;
+}
+.ou {
+  top: 0;
+  left: 144.5px;
+  font-weight: 500;
+  display: inline-block;
+  width: 18.1px;
+  height: 16.9px;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 8px;
+  left: -1px;
+  border-top: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  width: 128.4px;
+  height: 2px;
+}
+.groupInner {
+  left: 179.6px;
+}
+.ouParent {
+  position: absolute;
+  top: 628px;
+  left: 41px;
+  width: 307px;
+  height: 16.9px;
+}
+.groupIcon,
+.x {
+  position: absolute;
+  cursor: pointer;
+}
+.x {
+  top: 601px;
+  left: 41px;
+  font-weight: 900;
+  text-align: center;
+  display: inline-block;
+  width: 18px;
+}
+.groupIcon {
+  top: 661px;
+  left: 113px;
+  width: 164px;
+  height: 39px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 12.68%;
+  width: 51.28%;
+  top: 30.57%;
+  right: 22.56%;
+  bottom: 56.75%;
+  left: 26.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iphone1420 {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--caption1-regular-size);
+  color: var(--labels-primary-dark);
+  font-family: var(--font-montserrat);
+}
